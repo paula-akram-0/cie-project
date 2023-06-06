@@ -1,0 +1,116 @@
+.logo {
+  width: 5%;
+}
+
+.nav-btn {
+  background-color: #424D79;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 8rem;
+  height: 2.56rem;
+  transition: 0.3s ease-in-out;
+}
+.nav-btn:hover {
+  background-color: transparent;
+  border: 1px solid #424D79;
+  color: #424D79;
+}
+
+.navbar-nav-rtl .nav-item {
+  width: 140px;
+}
+
+@keyframes load {
+  0% {
+    opacity: 0.08;
+    filter: blur(5px);
+    letter-spacing: 3px;
+  }
+}
+.loadingScreen {
+  background-color: rgba(0, 0, 0, 0.6666666667);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+}
+.loadingScreen .animate {
+  margin: auto;
+  color: white;
+  font-family: Helvetica, sans-serif, Arial;
+  animation: load 1.2s infinite 0s ease-in-out;
+  animation-direction: alternate;
+  text-shadow: 0 0 1px white;
+}
+
+.footer {
+  background-color: #F0F3FF;
+  width: 100%;
+  height: 100px;
+}
+.footer .footer-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sec-one {
+  background-color: #C3CBEA;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec-one .sec-title {
+  text-align: center;
+}
+.sec-one .sec-title h1 {
+  font-weight: 700;
+  color: #424D79;
+  font-size: 2rem;
+}
+.sec-one .sec-card {
+  background-color: rgba(255, 255, 255, 0.58);
+  width: 60%;
+  height: 481px;
+  border-radius: 20px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.sec-one .sec-card .card-img {
+  background-color: white;
+  width: 90%;
+  height: 252px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.sec-one .sec-card .card-img img {
+  width: 80%;
+}
+.sec-one .sec-card .card-body {
+  text-align: center;
+  margin-top: 10px;
+}
+.sec-one .sec-card .card-body p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+html {
+  font-size: 16px;
+}/*# sourceMappingURL=main.css.map */

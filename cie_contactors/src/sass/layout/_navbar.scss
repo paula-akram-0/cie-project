@@ -1,0 +1,22 @@
+.logo{
+    width: 5%;
+}
+.nav-btn{
+    background-color: #424D79;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 8rem;
+    height: 2.56rem;
+    transition: 0.3s ease-in-out;
+    &:hover{
+         background-color: transparent;
+         border: 1px solid #424D79;
+         color: #424D79;
+    }
+}
+.navbar-nav-rtl{
+    .nav-item{
+        width: 140px;
+    }
+}
